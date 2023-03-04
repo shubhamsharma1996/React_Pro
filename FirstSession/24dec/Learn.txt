@@ -1,0 +1,29 @@
+1. What is Emmet ?
+=> Emmet is a kind of plugin or addon service for in text editor for writing fast code for HTML and css, developer uses Emmet shortcuts for writing code of HTML and css.
+
+2. Difference between a Library and Framework?
+=> Both Library and Framework are code written by someone else which we can use to make our life easier.
+   The differnce between Library and Framework is that in Library you are in charge of flow of application you can use Library wherever you want to,
+   but in Framework its the Framework who is in charge of flow, it will give you space to plugin in your code.
+
+3. What is CDN? Why do we use it?
+=> CDN stands for Content Delivery Network, basically a cdn is a group of servers distrubuted at different places which work together to deliver content at a very high speed,
+   we use CDN because it has a minified verison of code which load very fast as compare to other.
+
+4. What is crossorigin in script tag?
+=> Crossorigin is used to share content over different origin or we can say share resources form one domain to another , buy default it is set to anonymous.
+
+5. What is a ReactDOM ?
+=> ReactDOM is a package that provides DOM Specific methods that can be use at top level to manage DOM elemnets of web page.
+
+6. What is the differnce between React & ReactDOM ?
+=> React library  is used for creating ui elemnets or views but ReactDOM is used to render those ui elemnets in the browser.(refernce : https://www.geeksforgeeks.org/how-react-and-reactdom-works/)
+
+7. What is difference between react.development.js and react.production.js files via CDN?
+=> The difference between both of them is that in development build we can see the source map or the code easily but on production build the code become minified which makes it ugly and we can able to read it.
+
+8. What is async and defer?
+=> Both async and defer are boolean attributes which used in script tag.Basically Two opertion are performed by browser which is HTML parsing and Executin of script 
+   In async the browser does the html parsing and any of script tag fetch from network asynchrnously but when the network fetching is completed browser will stop
+   HTML parsing and execute the script and after that it will parse HTML.
+   In defer the browser does the html parsing and fetch of script tag are done in parallel and when the html parsing get completed it will execute the script.

@@ -1,0 +1,23 @@
+1.What is `NPM`?
+
+==> NPM is a package manager whihc manage all the package you need in your project and it is a open source platform where you can find different package 
+    for your project which will be needed.
+
+
+2.What is `Parcel/Webpack`? Why do we need it?
+
+==> Parcel/Webpack are bundlers used msotly for javascript or TypeScript code to minify, clean and make your code compact so that it becomes easier to send 
+    request or recieve a response from server to application easily, it also removes the console statement, unnecessary comments and white spaces in project.
+
+3.What is `.parcel-cache`?
+
+==> when we build a project using parcel it creates a folder name '.parcel-cache' which consist of information about project so that when it rebuilds,
+    it dosesn't have to re-analyze or re-build from scratch , it is also a key reason because of why parcel is so fast in development mode.
+
+4.What is `npx` ?
+
+==> NPX stands for Node Package Execute and it comes with npm with verison above of npm 5.2.0 , it is used to execute any package from npm registry without even installing it.
+
+5.What is difference between `dependencies` vs `devDependencies`?
+
+==> A dependency is a library that a project needs to function effectively. DevDependencies are the packages a developer needs during development.
