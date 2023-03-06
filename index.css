@@ -29,69 +29,109 @@ body{
     width: 91px;
 }
 
+h5{
+    margin: 0;
+    padding: 0;
+}
+
 .restaurant-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 2rem 0;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.shimmerUI{
+    margin: 90px;
 }
 
+.shimmer-search{
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    margin-top: 2rem;
+    margin-left: 26rem;
+    width: 25rem;
+    border-radius: 5px;
+    background-color: #ced0d7;
+}
+.shimmer-box{
+    height: 320px;
+    width: 270px;
+    margin-top: 3rem;
+    border-radius: 5px;
+    margin-left: 12px;
+    background-color: #ced0d7;
+}
+
+
+
+
+.search{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 25rem;
+    width:max-content;
+    padding: 10px;
+    display: flex;
+}
+
+.search-text{
+    width: 20rem;
+    margin-right: 3rem;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #eee;
+    border: 0 inset #0006;
+    font-size: 16px;
+    flex-basis: 350px;
+}
+
+
+
+
+
+
 .card {
-    padding: 20px 20px 57px;
-    border: 1px solid #fff;
-    contain: content;
-    width: 254px;
-    border-color: #d3d5df;
-    margin: 5px 0;
-    cursor: pointer;
+    height: 320px;
+    width: 270px;
+    /* flex-basis: 0px; */
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid white;
 }
 
 .card:hover{
     box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
 }
 
-
-
 .card > img{
-    background: #eef0f5;
-    width: 254px;
-    height: 160px;
-    position: relative;
+    width: 100%;
+}
+.card-item{
+    color: black;
 }
 
 .card-title{
-    margin-top: 14px;
-}
-
-.card-title h3{
+    word-spacing: 3px;
+    font-size: 18px;
     font-weight: 500;
-    word-break: break-word;
-    font-size: 17px;
 }
 
-.card-title h4{
-    color: #686b78;
+.card-cuisine{
+    color: #686b78;;
     font-size: 13px;
     margin-top: 4px;
 }
 
-.card-footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 18px;
-}
-
-.card-rating{
-    background-color: #48c479;
-    color: #fff;
-    height: 20px;
-    width: 43px;
-    padding: 0 5px;
-    font-weight: 400;
-}
-
-.card-footer h5{
+.card >h5{
+    color: gray;
     font-size: 12px;
-    color: #535665;
+    padding-top: 5px;
 }
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
